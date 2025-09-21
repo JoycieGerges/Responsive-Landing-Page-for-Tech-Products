@@ -44,7 +44,7 @@ Developed by Joycie Gerges
 
 📧 Email: joyciegerges@gmail.com
 
-🌐 Portfolio: [[Your Portfolio Link](https://joycieportfolio.netlify.app/)]
+🌐 Portfolio: [(https://joycieportfolio.netlify.app/)]
 
 🔗 LinkedIn: [www.linkedin.com/in/joycie-gerges-b45514248]
 
