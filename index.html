@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechProduct Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-8 py-4 shadow-md bg-gray-800 fixed w-full z-50">
+    <h1 class="text-2xl font-extrabold text-blue-400">TechProduct</h1>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#features" class="hover:text-blue-400">Features</a>
+      <a href="#testimonials" class="hover:text-blue-400">Testimonials</a>
+      <a href="#pricing" class="hover:text-blue-400">Pricing</a>
+      <a href="#cta" class="hover:text-blue-400">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 pt-32 pb-20 bg-gradient-to-r from-blue-600 to-blue-400 text-white">
+    <div class="max-w-lg text-center md:text-left">
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">Revolutionize Your Workflow</h2>
+      <p class="text-lg mb-8">Boost productivity with our powerful SaaS tool. Designed for teams and individuals to work smarter, not harder.</p>
+      <a href="#pricing" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100">Get Started</a>
+    </div>
+    <img src="Smart_Watch.png" alt="TechProduct Mockup" class="w-72 mt-10 md:mt-0 animate-bounce" />
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 px-8 md:px-20">
+    <h3 class="text-3xl font-bold text-center mb-12">Amazing Features</h3>
+    <div class="grid gap-10 md:grid-cols-3">
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-3">⚡ Blazing Fast</h4>
+        <p>Experience unmatched performance and speed in every task you do.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-3">🔒 Secure</h4>
+        <p>Protect your data with industry-standard encryption and privacy tools.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-3">☁️ Cloud Sync</h4>
+        <p>Access your work anywhere, anytime, seamlessly across devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 px-8 md:px-20 bg-gray-800">
+    <h3 class="text-3xl font-bold text-center mb-12">What Users Say</h3>
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="p-6 bg-gray-700 rounded-xl shadow">
+        <p>"TechProduct boosted our team’s productivity by 40%! Incredible."</p>
+        <span class="block mt-4 font-semibold">— Sarah L.</span>
+      </div>
+      <div class="p-6 bg-gray-700 rounded-xl shadow">
+        <p>"The UI is sleek, fast, and secure. It’s a no-brainer for businesses."</p>
+        <span class="block mt-4 font-semibold">— Michael D.</span>
+      </div>
+      <div class="p-6 bg-gray-700 rounded-xl shadow">
+        <p>"I can’t imagine my daily workflow without it anymore."</p>
+        <span class="block mt-4 font-semibold">— Emily R.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-20 px-8 md:px-20">
+    <h3 class="text-3xl font-bold text-center mb-12">Choose Your Plan</h3>
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Basic -->
+      <div class="p-8 bg-gray-800 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-3">Basic</h4>
+        <p class="text-3xl font-bold mb-4">$9<span class="text-base">/mo</span></p>
+        <ul class="mb-6 space-y-2">
+          <li>✔ Core Features</li>
+          <li>✔ 5GB Cloud</li>
+        </ul>
+        <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Choose</button>
+      </div>
+      <!-- Pro -->
+      <div class="p-8 bg-blue-600 text-white rounded-xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-3">Pro</h4>
+        <p class="text-3xl font-bold mb-4">$29<span class="text-base">/mo</span></p>
+        <ul class="mb-6 space-y-2">
+          <li>✔ Everything in Basic</li>
+          <li>✔ 50GB Cloud</li>
+          <li>✔ Priority Support</li>
+        </ul>
+        <button class="w-full bg-white text-blue-600 py-2 rounded-lg hover:bg-gray-100">Choose</button>
+      </div>
+      <!-- Enterprise -->
+      <div class="p-8 bg-gray-800 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-2xl font-semibold mb-3">Enterprise</h4>
+        <p class="text-3xl font-bold mb-4">$99<span class="text-base">/mo</span></p>
+        <ul class="mb-6 space-y-2">
+          <li>✔ All Pro Features</li>
+          <li>✔ Unlimited Cloud</li>
+          <li>✔ Dedicated Manager</li>
+        </ul>
+        <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Choose</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" class="py-20 text-center bg-gradient-to-r from-blue-700 to-blue-500 text-white">
+    <h3 class="text-3xl md:text-4xl font-bold mb-6">Ready to Supercharge Your Productivity?</h3>
+    <p class="mb-8">Join thousands of professionals already using TechProduct.</p>
+    <a href="#" class="bg-white text-blue-600 px-8 py-3 rounded-lg shadow font-semibold hover:bg-gray-100">Sign Up Free</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-gray-400">
+    © 2025 TechProduct. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
